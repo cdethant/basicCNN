@@ -78,7 +78,7 @@ def create_canvas(filepath):
 
 if (__name__ == "__main__"):
     # loaded the model
-    model = load_model("basicCNN\weights.pth")
+    model = load_model("weights.pth")
     
     # init gui
     create_canvas("digit_img.png")
